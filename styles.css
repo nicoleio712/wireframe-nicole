@@ -1,0 +1,43 @@
+.img-1{
+	background-image: url(nyc-1.jpg);
+	background-size: cover;
+	height: 150px;
+}
+
+.img-2{
+	background-image: url(nyc-2.jpg);
+	background-size: cover;
+	height: 150px;
+}
+
+.img-3{
+	background-image: url(nyc-3.jpg);
+	background-size: cover;
+	height: 150px;
+}
+
+.img-1, .img-2, .img-3{
+	display: inline-block;
+    width: 33.3333%;
+    height: 300px;
+    position: relative;
+}
+
+.column-stuff{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);	/*the last slot in rgbA is opacity (bw 0-1)*/
+	padding: 20px;
+}
+
+.column-stuff a{
+	font-weight: bold;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #1e74ff;		/*you can google color picker and copy the hexcode or rbg code*/
+}
+
+.column-stuff a:hover {
+	text-decoration: underline;
+}
